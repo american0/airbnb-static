@@ -1,14 +1,13 @@
 <div class="viewport text-center padded">
-          <h2>Our Team</h2>
-            <ul class="list-inline">
-              <% ["anne", "seb", "romain"].each do |member| %>
-                <li>
-                  <%= image_tag "#{member}.jpg", class: "avatar-large" %>
-                  <h3><%= member.capitalize %></h3>
-                </li>
-              <% end %>
-            </ul>
-            <br>
-            <%= link_to "fake@email.com", "mailto:fake@email.com", class: "btn btn-primary" %>
+  <h2>Our Team</h2>
+    <ul class="list-inline">
+      <% ["anne", "seb", "romain"].each do |member| %>
+        <li>
+          <%= image_tag "#{member}.jpg", class: "avatar-large" %>
+          <h3><%= member.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+  <br>
+  <%= link_to "fake@email.com", "mailto:fake@email.com", class: "btn btn-primary" %>
 </div>
-
