@@ -36,10 +36,9 @@ img {
 .icons-home {
   text-align: center;
   padding: 30px 5px 30px 5px;
-}
-
-.icons-home img {
+  img {
   width: 100px;
+}
 }
 
 #newsletter-form {
@@ -53,3 +52,7 @@ img {
   background: -webkit-linear-gradient(to left, #e6e6e6 , #acd8e6); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #e6e6e6 , #acd8e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.viewport {
+  height: 100vh;
+}
+
